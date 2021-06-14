@@ -4,8 +4,9 @@
 - 这个项目是为了获取北京公交的公开信息，例如所有的公交线路，某个公交线路的所有站点，以及某线路的实时公交。
 - 这个项目的成品是一个python package，导入这个这个package，就可以获取这些信息。
 
-[!screenshot](/screenshot.png)
-[!screenshot](https://github.com/dev-J-Ariza/moniter_bus/blob/main/screenshot.png)
+![screenshot](/screenshot.png)
+
+![screenshot](https://github.com/dev-J-Ariza/moniter_bus/blob/main/screenshot.png)
 
 
 ## Quick start
