@@ -6,7 +6,6 @@
 
 ![screenshot](/screenshot.png)
 
-![screenshot](https://github.com/dev-J-Ariza/moniter_bus/blob/main/screenshot.png)
 
 
 ## Quick start
