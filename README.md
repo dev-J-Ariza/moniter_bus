@@ -1,5 +1,7 @@
 # About The Project
 
+[![codecov](https://codecov.io/gh/dev-J-Ariza/moniter_bus/branch/main/graph/badge.svg?token=ZM7LQUISZ6)](https://codecov.io/gh/dev-J-Ariza/moniter_bus)
+
 - 这个项目是仿照github上一个开源项目写的（链接在后面）
 - 这个项目是为了获取北京公交的公开信息，例如所有的公交线路，某个公交线路的所有站点，以及某线路的实时公交。
 - 这个项目的成品是一个python package，导入这个这个package，就可以获取这些信息。
