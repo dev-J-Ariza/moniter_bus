@@ -1,5 +1,8 @@
 language: python
+before_install:
+  - pip install -U pip
+  - python setup.py install
 install: bash ./coverage/install-dependencies.sh
-before_script: pip list
 script: python -m pytest tests/ --cov=moniter_bus --cov-report xml:cov.xml
 after_success: bash <(curl -s https://codecov.io/bash) -t 0ef97c01-4076-4e96-81e8-c0bb0aed0541
+after_failure: pip list
