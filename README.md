@@ -1,5 +1,6 @@
 # About The Project
 
+[![Build Status](https://travis-ci.com/dev-J-Ariza/moniter_bus.svg?token=oXwGPfT7t3rxFMeiYgjs&branch=main)](https://travis-ci.com/dev-J-Ariza/moniter_bus)
 [![codecov](https://codecov.io/gh/dev-J-Ariza/moniter_bus/branch/main/graph/badge.svg?token=ZM7LQUISZ6)](https://codecov.io/gh/dev-J-Ariza/moniter_bus)
 
 - 这个项目是仿照github上一个开源项目写的（链接在后面）
