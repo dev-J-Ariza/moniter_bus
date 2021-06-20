@@ -1,7 +1,11 @@
+env:
+  global:
+    secure: PTXTSbkp9a+qaR/DUMlz4gsnHpOe8cbaHeeWWPIciZIQC/tJNudyKvnAgwxzLzKyl3T1X93edJbQZ3hPiIWo+ZFt0O0z0Kf5JGrHmS+d2clBaXxsbi0Zee7oOZe0j4IRQqfhn9P9Ny7FbUdqwFZXnlsLUm7NcClQFZSjmXwk15NMFRQgOdugDegIPyc69jcyyTdoGPzR1Vd24cIOJQobqSFjCHyg79ucwtXrgSTUI+llOX020TeWiP37ZEca1RQtd5C04kJ2ANUEUB/xcayMPVlPkfn/ccPW7G5pIHR/Hpz1Gle/BXxYqbOi88lOaC47RZXOvdxLyQ2frwdNDrUcNyqA8/+O+6ewcJUEK1DCIBHdUQXcJs5Ps7FSbcMC42+Pg5w0lMSzjdy56f+QteVCUJFvRbknY4f5BeCSQPJfnpeHrWyhgwAfl8XvRZg47ciC4O7Kf61VwEltmeFcveWCGJmBKfxX0ONxNeSIUCf6jwjTzdCXwSmSFwhDypv0+k9pzcYF9U7QwqB0TmVVPRWF3RTSqaKxC3kiQZMnTasG26/rt+xbuNI4ABV36XX4CCR62oquDBJu9ahPx3ShuTDEsI7NCffJ7PjSW99F7gpvCki14HRp1qY7fxdn4tvAHWA77OuD3vpwtwgJ8Gve4FUPS7mtneM7j9Hi8u++bgd0omI=
+
 language: python
 before_install:
   - pip install -U pip
 install: bash ./coverage/install-dependencies.sh
 script: python -m pytest tests/ --cov=moniter_bus --cov-report xml:cov.xml
-after_success: bash <(curl -s https://codecov.io/bash) -t 0ef97c01-4076-4e96-81e8-c0bb0aed0541
+after_success: bash <(curl -s https://codecov.io/bash) -t CODECOV_TOKEN
 after_failure: pip list
