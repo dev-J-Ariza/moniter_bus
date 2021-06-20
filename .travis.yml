@@ -7,5 +7,5 @@ before_install:
   - pip install -U pip
 install: bash ./coverage/install-dependencies.sh
 script: python -m pytest tests/ --cov=moniter_bus --cov-report xml:cov.xml
-after_success: bash <(curl -s https://codecov.io/bash) -t CODECOV_TOKEN
+after_success: bash <(curl -s https://codecov.io/bash) -t ${CODECOV_TOKEN}
 after_failure: pip list
