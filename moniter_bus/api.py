@@ -51,20 +51,64 @@ def get_all_busses():
 
 
 def get_station(bus_line):
-    payload = {'act': 'getLineDir', 'selBLine': str(bus_line)}
-    r = requests.get(MAIN_URL2, params=payload)
-    response = r.content.decode(encoding='utf-8')
-    dir_codes = re.findall('data-uuid="(\\d+)"', response)
-    dir_names = re.findall('>(.*?)</a>', response)
+    db_path = os.path.join(os.path.dirname(__file__), 'db', 'all_station.txt')
+    cache_data = {}
+    read_from_cache = False
+    with open(db_path, 'r', encoding='utf-8') as f:
+        try:
+            db_data = json.loads(f.read())
+            cache_data = db_data.get(str(bus_line))
+            if cache_data and time.time() - cache_data['time'] <= 24 * 3600:
+                read_from_cache = True
+        except json.JSONDecodeError as e:
+            pass
+
+    dir_codes = None
+    dir_names = None
+    play_load = play_load = {'act': 'getLineDir', 'selBLine': str(bus_line)}
+    if read_from_cache:
+        print('Getting from cache')
+        dir_codes = cache_data['dir_codes']
+        dir_names = cache_data['dir_names']
+    else:
+        print('Getting from web')
+        r = requests.get(MAIN_URL2, params=play_load)
+        response = r.content.decode(encoding='utf-8')
+        dir_codes = re.findall('data-uuid="(\\d+)"', response)
+        dir_names = re.findall('>(.*?)</a>', response)
+
     print('Please input direction:' + '\n' + Fore.CYAN + '1 ' + Fore.RESET + 'for ' + dir_names[0] + '\n'
           + Fore.CYAN + '2 ' + Fore.RESET + 'for ' + dir_names[1])
     direction = dir_codes[int(input()) - 1]
 
-    payload['act'] = 'getDirStation'
-    payload['selBDir'] = direction
-    r = requests.get(MAIN_URL2, params=payload)
-    response = r.content.decode(encoding='utf-8')
-    res = re.findall('<a href="javascript:;" data-seq="(\\d+)">(.*?)</a>', response)
+    if read_from_cache and direction in cache_data['data']:
+        print('Getting from cache')
+        res = cache_data['data'][direction]
+    else:
+        print('Getting from web')
+        play_load['act'] = 'getDirStation'
+        play_load['selBDir'] = direction
+        r = requests.get(MAIN_URL2, params=play_load)
+        response = r.content.decode(encoding='utf-8')
+        res = re.findall('<a href="javascript:;" data-seq="(\\d+)">(.*?)</a>', response)
+        # update
+        station_data = {}
+        if cache_data and cache_data['data']:
+            station_data = cache_data['data']
+        station_data[direction] = res
+        tmp = {
+            'time': time.time(),
+            'dir_codes': dir_codes,
+            'dir_names': dir_names,
+            'data': station_data
+        }
+        with open(db_path, 'r+', encoding='utf-8') as f:
+            try:
+                db_data[str(bus_line)] = tmp
+                f.write(json.dumps(db_data, ensure_ascii=False, indent=4))
+            except json.JSONDecodeError as e:
+                pass
+
     print(' --------------------------------')
     for station in res:
         print(Fore.CYAN + station[0] + "\t" + Fore.RESET + station[1])
