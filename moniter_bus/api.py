@@ -15,7 +15,12 @@ import os
 from colorama import Fore
 
 MAIN_URL1 = 'http://www.bjbus.com/home/index.php'
-MAIN_URL2 = 'http://www.bjbus.com/home/ajax_rtbus_data.php'
+REAL_TIME_URL = 'http://www.bjbus.com/api/api_etaline_list.php'
+STATION_URL = 'http://www.bjbus.com/api/api_etastation.php'
+
+token = "eyJhbGciOiJIUzI1NiIsIlR5cGUiOiJKd3QiLCJ0eXAiOiJKV1QifQ.eyJwYXNzd29yZCI6IjY0ODU5MTQzNSIsInVzZXJOYW1lIjoiY" \
+    "mpidXMiLCJleHAiOjE2MjcwOTkyMDB9.OQYkF6rC9jfgxoC5nXDjjv1nqDIv3KfXqol0ATdts9g"
+direction_name = ''
 
 
 def print_help():
@@ -63,34 +68,39 @@ def get_station(bus_line):
         except json.JSONDecodeError as e:
             pass
 
-    dir_codes = None
-    dir_names = None
-    play_load = play_load = {'act': 'getLineDir', 'selBLine': str(bus_line)}
+    line_ids = None
+    line_names = None
     if read_from_cache:
         print('Getting from cache')
-        dir_codes = cache_data['dir_codes']
-        dir_names = cache_data['dir_names']
+        line_ids = cache_data['line_ids']
+        line_names = cache_data['line_names']
     else:
         print('Getting from web')
-        r = requests.get(MAIN_URL2, params=play_load)
-        response = r.content.decode(encoding='utf-8')
-        dir_codes = re.findall('data-uuid="(\\d+)"', response)
-        dir_names = re.findall('>(.*?)</a>', response)
+        play_load = {'what': str(bus_line)}
+        r = requests.get(REAL_TIME_URL, params=play_load)
+        response = json.loads(r.content.decode(encoding='utf-8'))
+        data_list = response['response']['resultset']['data']['feature']
+        line_ids = [data_list[0]['lineId'], data_list[1]['lineId']]
+        line_names = [data_list[0]['firstStationName'] + '-' + data_list[0]['lastStationName'],
+                      data_list[1]['firstStationName'] + '-' + data_list[1]['lastStationName']]
 
-    print('Please input direction:' + '\n' + Fore.CYAN + '1 ' + Fore.RESET + 'for ' + dir_names[0] + '\n'
-          + Fore.CYAN + '2 ' + Fore.RESET + 'for ' + dir_names[1])
-    direction = dir_codes[int(input()) - 1]
+    print('Please input direction:' + '\n' + Fore.CYAN + '1 ' + Fore.RESET + 'for ' + line_names[0] + '\n'
+          + Fore.CYAN + '2 ' + Fore.RESET + 'for ' + line_names[1])
+    input_direction = int(input()) - 1
+    direction = line_ids[input_direction]
+    global direction_name
+    direction_name = '%s(%s)' % (str(bus_line), line_names[input_direction])
+    print(direction_name)
 
     if read_from_cache and direction in cache_data['data']:
         print('Getting from cache')
         res = cache_data['data'][direction]
     else:
         print('Getting from web')
-        play_load['act'] = 'getDirStation'
-        play_load['selBDir'] = direction
-        r = requests.get(MAIN_URL2, params=play_load)
-        response = r.content.decode(encoding='utf-8')
-        res = re.findall('<a href="javascript:;" data-seq="(\\d+)">(.*?)</a>', response)
+        play_load = {'lineId': direction, 'token': token}
+        r = requests.get(STATION_URL, params=play_load)
+        response = json.loads(r.content.decode(encoding='utf-8'))
+        res = response['data']
         # update
         station_data = {}
         if cache_data and cache_data['data']:
@@ -98,8 +108,8 @@ def get_station(bus_line):
         station_data[direction] = res
         tmp = {
             'time': time.time(),
-            'dir_codes': dir_codes,
-            'dir_names': dir_names,
+            'line_ids': line_ids,
+            'line_names': line_names,
             'data': station_data
         }
         with open(db_path, 'r+', encoding='utf-8') as f:
@@ -111,4 +121,5 @@ def get_station(bus_line):
 
     print(' --------------------------------')
     for station in res:
-        print(Fore.CYAN + station[0] + "\t" + Fore.RESET + station[1])
+        print(Fore.CYAN + station['stopNumber'] + "\t" + Fore.RESET + station['stopName'])
+    return res
