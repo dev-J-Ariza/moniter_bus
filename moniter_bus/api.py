@@ -15,7 +15,8 @@ import os
 from colorama import Fore
 
 MAIN_URL1 = 'http://www.bjbus.com/home/index.php'
-REAL_TIME_URL = 'http://www.bjbus.com/api/api_etaline_list.php'
+LINE_URL = 'http://www.bjbus.com/api/api_etaline_list.php'
+REAL_TIME_URL = 'http://www.bjbus.com/api/api_etartime.php'
 STATION_URL = 'http://www.bjbus.com/api/api_etastation.php'
 
 token = "eyJhbGciOiJIUzI1NiIsIlR5cGUiOiJKd3QiLCJ0eXAiOiJKV1QifQ.eyJwYXNzd29yZCI6IjY0ODU5MTQzNSIsInVzZXJOYW1lIjoiY" \
@@ -55,7 +56,7 @@ def get_all_busses():
     return res
 
 
-def get_station(bus_line):
+def get_station(bus_line, should_print=True):
     db_path = os.path.join(os.path.dirname(__file__), 'db', 'all_station.txt')
     cache_data = {}
     read_from_cache = False
@@ -77,7 +78,7 @@ def get_station(bus_line):
     else:
         print('Getting from web')
         play_load = {'what': str(bus_line)}
-        r = requests.get(REAL_TIME_URL, params=play_load)
+        r = requests.get(LINE_URL, params=play_load)
         response = json.loads(r.content.decode(encoding='utf-8'))
         data_list = response['response']['resultset']['data']['feature']
         line_ids = [data_list[0]['lineId'], data_list[1]['lineId']]
@@ -93,10 +94,8 @@ def get_station(bus_line):
     print(direction_name)
 
     if read_from_cache and direction in cache_data['data']:
-        print('Getting from cache')
         res = cache_data['data'][direction]
     else:
-        print('Getting from web')
         play_load = {'lineId': direction, 'token': token}
         r = requests.get(STATION_URL, params=play_load)
         response = json.loads(r.content.decode(encoding='utf-8'))
@@ -119,7 +118,35 @@ def get_station(bus_line):
             except json.JSONDecodeError as e:
                 pass
 
-    print(' --------------------------------')
-    for station in res:
-        print(Fore.CYAN + station['stopNumber'] + "\t" + Fore.RESET + station['stopName'])
+    if should_print:
+        print(' --------------------------------')
+        for station in res:
+            print(Fore.CYAN + station['stopNumber'] + "\t" + Fore.RESET + station['stopName'])
     return res
+
+
+def get_real_time_bus(bus_line):
+    print(Fore.CYAN + f'Line is {bus_line}' + Fore.RESET)
+    station_list = get_station(bus_line, should_print=False)
+    if not station_list or len(station_list) == 0:
+        print(Fore.RED + 'Error' + Fore.RESET)
+        return
+    last_station = station_list[-1]
+    play_load = {'conditionstr': last_station['lineId'] + '-' + last_station['stationId'], 'token': token}
+    r = requests.get(REAL_TIME_URL, params=play_load)
+    response = json.loads(r.content.decode(encoding='utf-8'))
+    bus_online = response['data'][0]['datas']
+    if 'trip' not in bus_online:
+        return None
+    bus_online = bus_online['trip']
+    arrival_stations = []
+    for bus in bus_online:
+        arrival_stations.append(int(last_station['stopNumber']) - int(bus['stationLeft']))
+    print(' --------------------------------')
+    for s in station_list:
+        if int(s['stopNumber']) in arrival_stations:
+            print(Fore.RED + s['stopNumber'] + "\t" + s['stopName'] + ' !!!' + Fore.RESET)
+        else:
+            print(s['stopNumber'] + "\t" + s['stopName'])
+    return arrival_stations
+
