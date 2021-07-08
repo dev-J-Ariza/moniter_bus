@@ -9,6 +9,8 @@
 
 ![screenshot](/screenshot.png)
 
+![实时公交到站图片](/real_time_bus.png)
+
 
 
 ## Quick start
