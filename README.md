@@ -3,11 +3,13 @@
 [![Build Status](https://travis-ci.com/dev-J-Ariza/moniter_bus.svg?token=oXwGPfT7t3rxFMeiYgjs&branch=main)](https://travis-ci.com/dev-J-Ariza/moniter_bus)
 [![codecov](https://codecov.io/gh/dev-J-Ariza/moniter_bus/branch/main/graph/badge.svg?token=ZM7LQUISZ6)](https://codecov.io/gh/dev-J-Ariza/moniter_bus)
 
-- 这个项目是仿照github上一个开源项目写的（链接在后面）
 - 这个项目是为了获取北京公交的公开信息，例如所有的公交线路，某个公交线路的所有站点，以及某线路的实时公交。
 - 这个项目的成品是一个python package，导入这个这个package，就可以获取这些信息。
+- 这个项目参考了github上的两个开源项目（链接在后面）
 
 ![screenshot](/screenshot.png)
+
+实时公交到站情况：
 
 ![实时公交到站图片](/real_time_bus.png)
 
@@ -31,6 +33,7 @@
     bus.print_help()    # 查看使用帮助
     bus.get_station(509) # 获取某条线路
     bus.get_all_buses() # 获取所有线路
+    bus.get_real_time_bus(509) # 获取这条线路上的实时公交到站情况
    ```
 
 # Reference 参考
