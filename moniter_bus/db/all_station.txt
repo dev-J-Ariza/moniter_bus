@@ -1,0 +1,1661 @@
+{
+    "509": {
+        "time": 1625888640.282961,
+        "line_ids": [
+            "000000058484070",
+            "000000058484071"
+        ],
+        "line_names": [
+            "中央党校北门-地铁西二旗站",
+            "地铁西二旗站-中央党校北门"
+        ],
+        "data": {
+            "000000058484070": [
+                {
+                    "stationId": "110100010634022",
+                    "stopNumber": "1",
+                    "stopName": "中央党校北门",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634023",
+                    "stopNumber": "2",
+                    "stopName": "中央党校东站",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634006",
+                    "stopNumber": "3",
+                    "stopName": "肖家河",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634007",
+                    "stopNumber": "4",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634008",
+                    "stopNumber": "5",
+                    "stopName": "梅园",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634009",
+                    "stopNumber": "6",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634010",
+                    "stopNumber": "7",
+                    "stopName": "马连洼西站",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634011",
+                    "stopNumber": "8",
+                    "stopName": "马连洼",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634012",
+                    "stopNumber": "9",
+                    "stopName": "菊园",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634013",
+                    "stopNumber": "10",
+                    "stopName": "东北旺中路",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634020",
+                    "stopNumber": "11",
+                    "stopName": "东北旺",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634015",
+                    "stopNumber": "12",
+                    "stopName": "软件园南站",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634016",
+                    "stopNumber": "13",
+                    "stopName": "软件园东站",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634017",
+                    "stopNumber": "14",
+                    "stopName": "软件园广场",
+                    "lineId": "000000058484070"
+                },
+                {
+                    "stationId": "110100010634018",
+                    "stopNumber": "15",
+                    "stopName": "地铁西二旗站",
+                    "lineId": "000000058484070"
+                }
+            ]
+        }
+    }
+}000058484071": [
+                {
+                    "stationId": "110100013967002",
+                    "stopNumber": "1",
+                    "stopName": "地铁西二旗站",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967003",
+                    "stopNumber": "2",
+                    "stopName": "上地七街路口东",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967004",
+                    "stopNumber": "3",
+                    "stopName": "上地七街路口西",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967005",
+                    "stopNumber": "4",
+                    "stopName": "软件园南站",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967006",
+                    "stopNumber": "5",
+                    "stopName": "东北旺",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967007",
+                    "stopNumber": "6",
+                    "stopName": "东北旺中路",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967008",
+                    "stopNumber": "7",
+                    "stopName": "菊园",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967009",
+                    "stopNumber": "8",
+                    "stopName": "马连洼",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967010",
+                    "stopNumber": "9",
+                    "stopName": "马连洼西站",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967011",
+                    "stopNumber": "10",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967012",
+                    "stopNumber": "11",
+                    "stopName": "梅园",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967013",
+                    "stopNumber": "12",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967014",
+                    "stopNumber": "13",
+                    "stopName": "肖家河",
+                    "lineId": "000000058484071"
+                },
+                {
+                    "stationId": "110100013967018",
+                    "stopNumber": "14",
+                    "stopName": "中央党校北门",
+                    "lineId": "000000058484071"
+                }
+            ]
+        }
+    },
+    "333": {
+        "time": 1625753324.5428936,
+        "line_ids": [
+            "000008781321990",
+            "000008781321991"
+        ],
+        "line_names": [
+            "西苑-安宁庄东路南口",
+            "安宁庄东路南口-西苑"
+        ],
+        "data": {
+            "000008781321990": [
+                {
+                    "stationId": "110100013578019",
+                    "stopNumber": "1",
+                    "stopName": "西苑",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578020",
+                    "stopNumber": "2",
+                    "stopName": "骚子营",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578021",
+                    "stopNumber": "3",
+                    "stopName": "小清河",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578022",
+                    "stopNumber": "4",
+                    "stopName": "肖家河",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578023",
+                    "stopNumber": "5",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578024",
+                    "stopNumber": "6",
+                    "stopName": "梅园",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578025",
+                    "stopNumber": "7",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578026",
+                    "stopNumber": "8",
+                    "stopName": "永丰路南站",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578027",
+                    "stopNumber": "9",
+                    "stopName": "西北旺东村",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578028",
+                    "stopNumber": "10",
+                    "stopName": "中海枫涟山庄南门",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578029",
+                    "stopNumber": "11",
+                    "stopName": "夏霖园",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578030",
+                    "stopNumber": "12",
+                    "stopName": "后厂村路",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578043",
+                    "stopNumber": "13",
+                    "stopName": "软件园北站",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578031",
+                    "stopNumber": "14",
+                    "stopName": "东北旺北",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578032",
+                    "stopNumber": "15",
+                    "stopName": "软件园广场",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578033",
+                    "stopNumber": "16",
+                    "stopName": "地铁西二旗站南",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578034",
+                    "stopNumber": "17",
+                    "stopName": "西二旗大街",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578035",
+                    "stopNumber": "18",
+                    "stopName": "西二旗",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578036",
+                    "stopNumber": "19",
+                    "stopName": "当代城市家园",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578037",
+                    "stopNumber": "20",
+                    "stopName": "安宁庄前街西口",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578038",
+                    "stopNumber": "21",
+                    "stopName": "安宁庄前街东口",
+                    "lineId": "000008781321990"
+                },
+                {
+                    "stationId": "110100013578039",
+                    "stopNumber": "22",
+                    "stopName": "安宁庄东路南口",
+                    "lineId": "000008781321990"
+                }
+            ],
+            "000008781321991": [
+                {
+                    "stationId": "110100013579002",
+                    "stopNumber": "1",
+                    "stopName": "安宁庄东路南口",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579003",
+                    "stopNumber": "2",
+                    "stopName": "安宁庄前街东口",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579004",
+                    "stopNumber": "3",
+                    "stopName": "安宁庄前街西口",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579005",
+                    "stopNumber": "4",
+                    "stopName": "当代城市家园",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579006",
+                    "stopNumber": "5",
+                    "stopName": "西二旗",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579007",
+                    "stopNumber": "6",
+                    "stopName": "西二旗大街",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579008",
+                    "stopNumber": "7",
+                    "stopName": "地铁西二旗站南",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579009",
+                    "stopNumber": "8",
+                    "stopName": "软件园广场",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579010",
+                    "stopNumber": "9",
+                    "stopName": "东北旺北",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579045",
+                    "stopNumber": "10",
+                    "stopName": "软件园北站",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579012",
+                    "stopNumber": "11",
+                    "stopName": "后厂村路",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579013",
+                    "stopNumber": "12",
+                    "stopName": "夏霖园",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579014",
+                    "stopNumber": "13",
+                    "stopName": "中海枫涟山庄北门",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579015",
+                    "stopNumber": "14",
+                    "stopName": "百旺新城",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579016",
+                    "stopNumber": "15",
+                    "stopName": "西北旺东村",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579017",
+                    "stopNumber": "16",
+                    "stopName": "永丰路南站",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579018",
+                    "stopNumber": "17",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579019",
+                    "stopNumber": "18",
+                    "stopName": "梅园",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579020",
+                    "stopNumber": "19",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579021",
+                    "stopNumber": "20",
+                    "stopName": "肖家河",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579022",
+                    "stopNumber": "21",
+                    "stopName": "小清河",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579023",
+                    "stopNumber": "22",
+                    "stopName": "骚子营",
+                    "lineId": "000008781321991"
+                },
+                {
+                    "stationId": "110100013579024",
+                    "stopNumber": "23",
+                    "stopName": "西苑",
+                    "lineId": "000008781321991"
+                }
+            ]
+        }
+    },
+    "夜2": {
+        "time": 1625671470.224326,
+        "line_ids": [
+            "000000058664290",
+            "000000058664291"
+        ],
+        "line_names": [
+            "万源路-祁家豁子",
+            "祁家豁子-万源路"
+        ],
+        "data": {
+            "000000058664290": [
+                {
+                    "stationId": "110100015485032",
+                    "stopNumber": "1",
+                    "stopName": "万源路",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485031",
+                    "stopNumber": "2",
+                    "stopName": "东高地",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485033",
+                    "stopNumber": "3",
+                    "stopName": "西洼地",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485001",
+                    "stopNumber": "4",
+                    "stopName": "三营门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485002",
+                    "stopNumber": "5",
+                    "stopName": "和义南站",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485003",
+                    "stopNumber": "6",
+                    "stopName": "和义农场",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485004",
+                    "stopNumber": "7",
+                    "stopName": "久敬庄",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485005",
+                    "stopNumber": "8",
+                    "stopName": "大红门桥北",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485006",
+                    "stopNumber": "9",
+                    "stopName": "大红门北站",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485007",
+                    "stopNumber": "10",
+                    "stopName": "南顶村",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485008",
+                    "stopNumber": "11",
+                    "stopName": "海慧寺",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485009",
+                    "stopNumber": "12",
+                    "stopName": "海户屯",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485010",
+                    "stopNumber": "13",
+                    "stopName": "木樨园桥北",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485034",
+                    "stopNumber": "14",
+                    "stopName": "沙子口",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485011",
+                    "stopNumber": "15",
+                    "stopName": "永定门内",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485035",
+                    "stopNumber": "16",
+                    "stopName": "先农坛",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485012",
+                    "stopNumber": "17",
+                    "stopName": "天坛西门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485036",
+                    "stopNumber": "18",
+                    "stopName": "天桥",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485013",
+                    "stopNumber": "19",
+                    "stopName": "珠市口南",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485037",
+                    "stopNumber": "20",
+                    "stopName": "大栅栏",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485038",
+                    "stopNumber": "21",
+                    "stopName": "前门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485039",
+                    "stopNumber": "22",
+                    "stopName": "南河沿",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485016",
+                    "stopNumber": "23",
+                    "stopName": "东安门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485040",
+                    "stopNumber": "24",
+                    "stopName": "骑河楼",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485017",
+                    "stopNumber": "25",
+                    "stopName": "沙滩路口西",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485018",
+                    "stopNumber": "26",
+                    "stopName": "景山东门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485041",
+                    "stopNumber": "27",
+                    "stopName": "景山东街",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485019",
+                    "stopNumber": "28",
+                    "stopName": "地安门内",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485042",
+                    "stopNumber": "29",
+                    "stopName": "地安门外",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485020",
+                    "stopNumber": "30",
+                    "stopName": "鼓楼",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485021",
+                    "stopNumber": "31",
+                    "stopName": "铸钟厂",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485022",
+                    "stopNumber": "32",
+                    "stopName": "德内甘水桥",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485023",
+                    "stopNumber": "33",
+                    "stopName": "果子市",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485024",
+                    "stopNumber": "34",
+                    "stopName": "德胜门",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485025",
+                    "stopNumber": "35",
+                    "stopName": "德胜门外",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485026",
+                    "stopNumber": "36",
+                    "stopName": "德外关厢",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485027",
+                    "stopNumber": "37",
+                    "stopName": "马甸桥南",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485028",
+                    "stopNumber": "38",
+                    "stopName": "马甸桥北",
+                    "lineId": "000000058664290"
+                },
+                {
+                    "stationId": "110100015485029",
+                    "stopNumber": "39",
+                    "stopName": "祁家豁子",
+                    "lineId": "000000058664290"
+                }
+            ]
+        }
+    },
+    "575": {
+        "time": 1625824887.5727549,
+        "line_ids": [
+            "000000058525550",
+            "000000058525551"
+        ],
+        "line_names": [
+            "地铁安河桥北站-西辛力屯",
+            "西辛力屯-地铁安河桥北站"
+        ],
+        "data": {
+            "000000058525550": [
+                {
+                    "stationId": "110100015818002",
+                    "stopNumber": "1",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818003",
+                    "stopNumber": "2",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818004",
+                    "stopNumber": "3",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818005",
+                    "stopNumber": "4",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818006",
+                    "stopNumber": "5",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818007",
+                    "stopNumber": "6",
+                    "stopName": "梅园",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818008",
+                    "stopNumber": "7",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818031",
+                    "stopNumber": "8",
+                    "stopName": "永丰路南口",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818009",
+                    "stopNumber": "9",
+                    "stopName": "百旺新城",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818027",
+                    "stopNumber": "10",
+                    "stopName": "赵家庄",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818010",
+                    "stopNumber": "11",
+                    "stopName": "丰滢路口北",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818028",
+                    "stopNumber": "12",
+                    "stopName": "地铁永丰站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818011",
+                    "stopNumber": "13",
+                    "stopName": "上庄路口东",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818029",
+                    "stopNumber": "14",
+                    "stopName": "上庄路口北",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818012",
+                    "stopNumber": "15",
+                    "stopName": "永丰屯",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818013",
+                    "stopNumber": "16",
+                    "stopName": "上庄镇南站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818014",
+                    "stopNumber": "17",
+                    "stopName": "上庄镇",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818015",
+                    "stopNumber": "18",
+                    "stopName": "上庄水库南站",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818016",
+                    "stopNumber": "19",
+                    "stopName": "上庄水库",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818017",
+                    "stopNumber": "20",
+                    "stopName": "上庄南口",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818018",
+                    "stopNumber": "21",
+                    "stopName": "上庄卫生院",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818019",
+                    "stopNumber": "22",
+                    "stopName": "上庄东小营东口",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818020",
+                    "stopNumber": "23",
+                    "stopName": "上庄东小营",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818021",
+                    "stopNumber": "24",
+                    "stopName": "上庄东小营北口",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818022",
+                    "stopNumber": "25",
+                    "stopName": "罗家坟",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818023",
+                    "stopNumber": "26",
+                    "stopName": "后章村",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818024",
+                    "stopNumber": "27",
+                    "stopName": "前章村",
+                    "lineId": "000000058525550"
+                },
+                {
+                    "stationId": "110100015818025",
+                    "stopNumber": "28",
+                    "stopName": "西辛力屯",
+                    "lineId": "000000058525550"
+                }
+            ],
+            "000000058525551": [
+                {
+                    "stationId": "110100014071002",
+                    "stopNumber": "1",
+                    "stopName": "西辛力屯",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071003",
+                    "stopNumber": "2",
+                    "stopName": "前章村",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071004",
+                    "stopNumber": "3",
+                    "stopName": "后章村",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071005",
+                    "stopNumber": "4",
+                    "stopName": "罗家坟",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071006",
+                    "stopNumber": "5",
+                    "stopName": "上庄东小营北口",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071007",
+                    "stopNumber": "6",
+                    "stopName": "上庄东小营",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071008",
+                    "stopNumber": "7",
+                    "stopName": "上庄东小营东口",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071009",
+                    "stopNumber": "8",
+                    "stopName": "上庄卫生院",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071010",
+                    "stopNumber": "9",
+                    "stopName": "上庄南口",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071011",
+                    "stopNumber": "10",
+                    "stopName": "上庄水库",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071012",
+                    "stopNumber": "11",
+                    "stopName": "上庄水库南站",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071013",
+                    "stopNumber": "12",
+                    "stopName": "上庄镇",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071014",
+                    "stopNumber": "13",
+                    "stopName": "上庄镇南站",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071015",
+                    "stopNumber": "14",
+                    "stopName": "永丰屯",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071029",
+                    "stopNumber": "15",
+                    "stopName": "上庄路口北",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071016",
+                    "stopNumber": "16",
+                    "stopName": "上庄路口东",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071027",
+                    "stopNumber": "17",
+                    "stopName": "地铁永丰站",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071017",
+                    "stopNumber": "18",
+                    "stopName": "丰滢路口南",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071028",
+                    "stopNumber": "19",
+                    "stopName": "赵家庄",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071018",
+                    "stopNumber": "20",
+                    "stopName": "百旺新城",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071031",
+                    "stopNumber": "21",
+                    "stopName": "永丰路南口",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071019",
+                    "stopNumber": "22",
+                    "stopName": "圆明园西路北口",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071020",
+                    "stopNumber": "23",
+                    "stopName": "梅园",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071021",
+                    "stopNumber": "24",
+                    "stopName": "中国农业大学西校区",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071022",
+                    "stopNumber": "25",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071023",
+                    "stopNumber": "26",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071024",
+                    "stopNumber": "27",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058525551"
+                },
+                {
+                    "stationId": "110100014071025",
+                    "stopNumber": "28",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058525551"
+                }
+            ]
+        }
+    },
+    "437": {
+        "time": 1625824920.521559,
+        "line_ids": [
+            "000000058360100",
+            "000000058360101"
+        ],
+        "line_names": [
+            "公主坟北-地铁安河桥北站",
+            "地铁安河桥北站-公主坟北"
+        ],
+        "data": {
+            "000000058360100": [
+                {
+                    "stationId": "110100013818002",
+                    "stopNumber": "1",
+                    "stopName": "公主坟北",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818003",
+                    "stopNumber": "2",
+                    "stopName": "航天桥南",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818004",
+                    "stopNumber": "3",
+                    "stopName": "航天桥北",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818005",
+                    "stopNumber": "4",
+                    "stopName": "花园桥南",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818006",
+                    "stopNumber": "5",
+                    "stopName": "首都师范大学北门",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818007",
+                    "stopNumber": "6",
+                    "stopName": "七贤村路口北",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818008",
+                    "stopNumber": "7",
+                    "stopName": "北洼西里",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818009",
+                    "stopNumber": "8",
+                    "stopName": "北洼路北口",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818010",
+                    "stopNumber": "9",
+                    "stopName": "北洼路",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818011",
+                    "stopNumber": "10",
+                    "stopName": "车道沟桥东",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818012",
+                    "stopNumber": "11",
+                    "stopName": "麦钟桥",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818013",
+                    "stopNumber": "12",
+                    "stopName": "长春桥",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818014",
+                    "stopNumber": "13",
+                    "stopName": "蓝靛厂",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818015",
+                    "stopNumber": "14",
+                    "stopName": "火器营",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818016",
+                    "stopNumber": "15",
+                    "stopName": "空军指挥学院",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818020",
+                    "stopNumber": "16",
+                    "stopName": "火器营桥",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818017",
+                    "stopNumber": "17",
+                    "stopName": "柳浪游泳场",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818018",
+                    "stopNumber": "18",
+                    "stopName": "六郎庄西口",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818019",
+                    "stopNumber": "19",
+                    "stopName": "颐和园新建宫门",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818021",
+                    "stopNumber": "20",
+                    "stopName": "西苑",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818022",
+                    "stopNumber": "21",
+                    "stopName": "西苑北站",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818023",
+                    "stopNumber": "22",
+                    "stopName": "骚子营",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818024",
+                    "stopNumber": "23",
+                    "stopName": "小清河",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818025",
+                    "stopNumber": "24",
+                    "stopName": "肖家河",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818026",
+                    "stopNumber": "25",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818027",
+                    "stopNumber": "26",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818028",
+                    "stopNumber": "27",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058360100"
+                },
+                {
+                    "stationId": "110100013818029",
+                    "stopNumber": "28",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058360100"
+                }
+            ],
+            "000000058360101": [
+                {
+                    "stationId": "110100013819021",
+                    "stopNumber": "1",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819022",
+                    "stopNumber": "2",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819023",
+                    "stopNumber": "3",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819024",
+                    "stopNumber": "4",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819025",
+                    "stopNumber": "5",
+                    "stopName": "肖家河",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819026",
+                    "stopNumber": "6",
+                    "stopName": "小清河",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819027",
+                    "stopNumber": "7",
+                    "stopName": "骚子营",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819028",
+                    "stopNumber": "8",
+                    "stopName": "西苑北站",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819029",
+                    "stopNumber": "9",
+                    "stopName": "西苑",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819002",
+                    "stopNumber": "10",
+                    "stopName": "颐和园新建宫门",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819003",
+                    "stopNumber": "11",
+                    "stopName": "六郎庄西口",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819004",
+                    "stopNumber": "12",
+                    "stopName": "柳浪游泳场",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819020",
+                    "stopNumber": "13",
+                    "stopName": "火器营桥",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819005",
+                    "stopNumber": "14",
+                    "stopName": "空军指挥学院",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819006",
+                    "stopNumber": "15",
+                    "stopName": "火器营",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819007",
+                    "stopNumber": "16",
+                    "stopName": "蓝靛厂",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819008",
+                    "stopNumber": "17",
+                    "stopName": "长春桥",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819009",
+                    "stopNumber": "18",
+                    "stopName": "麦钟桥",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819010",
+                    "stopNumber": "19",
+                    "stopName": "车道沟桥",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819011",
+                    "stopNumber": "20",
+                    "stopName": "车道沟桥东",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819012",
+                    "stopNumber": "21",
+                    "stopName": "北洼路",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819013",
+                    "stopNumber": "22",
+                    "stopName": "北洼路北口",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819014",
+                    "stopNumber": "23",
+                    "stopName": "北洼西里",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819015",
+                    "stopNumber": "24",
+                    "stopName": "七贤村路口北",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819016",
+                    "stopNumber": "25",
+                    "stopName": "首都师范大学北门",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819017",
+                    "stopNumber": "26",
+                    "stopName": "花园桥南",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819018",
+                    "stopNumber": "27",
+                    "stopName": "航天桥南",
+                    "lineId": "000000058360101"
+                },
+                {
+                    "stationId": "110100013819019",
+                    "stopNumber": "28",
+                    "stopName": "公主坟北",
+                    "lineId": "000000058360101"
+                }
+            ]
+        }
+    },
+    "专28": {
+        "time": 1625825039.612927,
+        "line_ids": [
+            "000000058624060",
+            "000000058624061"
+        ],
+        "line_names": [
+            "地铁安河桥北站-地铁上地站",
+            "地铁上地站-地铁安河桥北站"
+        ],
+        "data": {
+            "000000058624060": [
+                {
+                    "stationId": "110100015510019",
+                    "stopNumber": "1",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510020",
+                    "stopNumber": "2",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510021",
+                    "stopNumber": "3",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510022",
+                    "stopNumber": "4",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510023",
+                    "stopNumber": "5",
+                    "stopName": "农大南路西口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510024",
+                    "stopNumber": "6",
+                    "stopName": "厢黄旗",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510025",
+                    "stopNumber": "7",
+                    "stopName": "厢黄旗东路南口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510017",
+                    "stopNumber": "8",
+                    "stopName": "厢黄旗东路",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510018",
+                    "stopNumber": "9",
+                    "stopName": "厢黄旗东路北口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510012",
+                    "stopNumber": "10",
+                    "stopName": "菊园东站",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510011",
+                    "stopNumber": "11",
+                    "stopName": "马连洼北路东口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510008",
+                    "stopNumber": "12",
+                    "stopName": "上地三街西口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510009",
+                    "stopNumber": "13",
+                    "stopName": "上地三街东口",
+                    "lineId": "000000058624060"
+                },
+                {
+                    "stationId": "110100015510010",
+                    "stopNumber": "14",
+                    "stopName": "地铁上地站",
+                    "lineId": "000000058624060"
+                }
+            ],
+            "000000058624061": [
+                {
+                    "stationId": "110100012950002",
+                    "stopNumber": "1",
+                    "stopName": "地铁上地站",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950003",
+                    "stopNumber": "2",
+                    "stopName": "上地三街东口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950004",
+                    "stopNumber": "3",
+                    "stopName": "上地三街西口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950005",
+                    "stopNumber": "4",
+                    "stopName": "马连洼北路东口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950006",
+                    "stopNumber": "5",
+                    "stopName": "菊园东站",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950011",
+                    "stopNumber": "6",
+                    "stopName": "厢黄旗东路北口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950012",
+                    "stopNumber": "7",
+                    "stopName": "厢黄旗东路",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950013",
+                    "stopNumber": "8",
+                    "stopName": "厢黄旗东路南口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950014",
+                    "stopNumber": "9",
+                    "stopName": "厢黄旗",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950015",
+                    "stopNumber": "10",
+                    "stopName": "农大南路西口",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950016",
+                    "stopNumber": "11",
+                    "stopName": "天秀花园东站",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950017",
+                    "stopNumber": "12",
+                    "stopName": "天秀花园",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950018",
+                    "stopNumber": "13",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000000058624061"
+                },
+                {
+                    "stationId": "110100012950019",
+                    "stopNumber": "14",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000000058624061"
+                }
+            ]
+        }
+    },
+    "专151": {
+        "time": 1625825121.471642,
+        "line_ids": [
+            "000013310123500",
+            "000013310123501"
+        ],
+        "line_names": [
+            "地铁安河桥北站-国防大学",
+            "国防大学-地铁安河桥北站"
+        ],
+        "data": {
+            "000013310123500": [
+                {
+                    "stationId": "900000151091001",
+                    "stopNumber": "1",
+                    "stopName": "地铁安河桥北站",
+                    "lineId": "000013310123500"
+                },
+                {
+                    "stationId": "900000151091002",
+                    "stopNumber": "2",
+                    "stopName": "天秀花园西站",
+                    "lineId": "000013310123500"
+                },
+                {
+                    "stationId": "900000151091003",
+                    "stopNumber": "3",
+                    "stopName": "天秀路西口",
+                    "lineId": "000013310123500"
+                },
+                {
+                    "stationId": "900000151091004",
+                    "stopNumber": "4",
+                    "stopName": "国防大学",
+                    "lineId": "000013310123500"
+                }
+            ]
+        }
+    }
+}}
